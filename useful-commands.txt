@@ -1,0 +1,6 @@
+type 'M-x', then enter the command mode in minibuffer
+1. list-colors-display: display all supported colors
+2. list-faces-display: display all faces for set-face-xxx
+
+type 'C-h', then '?', get help
+
