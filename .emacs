@@ -30,3 +30,11 @@
     "wubi" "wubi" "wb.txt")
 (require 'eim-extra)
 (global-set-key ";" 'eim-insert-ascii)
+
+;set gtags if need
+;(add-to-list 'load-path "~/.emacs.d/lisp")
+;(autoload 'gtags-mode "gtags" "" t)
+;(setq c-mode-hook
+;    '(lambda ()
+;        (gtags-mode 1)
+;))
