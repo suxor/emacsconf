@@ -20,3 +20,13 @@
 (setq locale-coding-system 'utf-8)
 (prefer-coding-system 'utf-8)
 
+(add-to-list 'load-path "~/local/share/emacs/site-lisp/eim")
+(autoload 'eim-usage-package "eim" "Another emacs input method")
+(register-input-method
+    "eim-py" "euc-cn" 'eim-use-package
+    "py" "pinyin" "py.txt")
+(register-input-method
+    "eim-wb" "euc-cn" 'eim-use-package
+    "wubi" "wubi" "wb.txt")
+(require 'eim-extra)
+(global-set-key ";" 'eim-insert-ascii)
