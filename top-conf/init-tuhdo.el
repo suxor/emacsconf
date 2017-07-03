@@ -55,4 +55,4 @@
  ;; If there is more than one, they won't work right.
  )
 
-（provide 'init-tuhdo)
+(provide 'init-tuhdo)
