@@ -1,0 +1,6 @@
+[submodule "purcell"]
+	path = purcell
+	url = https://github.com/purcell/emacs.d.git
+[submodule "tuhdo"]
+	path = tuhdo
+	url = https://github.com/tuhdo/emacs-c-ide-demo.git
