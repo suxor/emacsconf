@@ -1,2 +1,4 @@
 input method
+https://github.com/purcell
+https://github.com/tuhdo
 https://github.com/wenbinye/emacs-eim
